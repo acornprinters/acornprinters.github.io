@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\nbody {\n    a {\n        color:purple;\n    }\n}",
+		"body {\n    a {\n        color:purple;\n        &:hover {\n            color:black;\n        }\n    }\n}\n.current {\n    color: green;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AACI,IADA,CACA,CAAC,CAAC,EACE,KAAK,EAAC,MAAM,GAIf;;AANL,AAGQ,IAHJ,CACA,CAAC,CAEK,KAAK,CAAC,EACJ,KAAK,EAAC,KAAK,GACd;;AAGT,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf;;ADTD,AACI,IADA,CACA,CAAC,CAAC,EACE,KAAK,EAAC,MAAM,GACf"
+}
